@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_subdirectory(creational/singleton/cpp)
 #add_subdirectory(creational/factory-method/cpp)
 #add_subdirectory(creational/builder/cpp)
-#add_subdirectory(creational/abstract-factory/cpp)
+add_subdirectory(creational/abstract-factory/cpp)
 #add_subdirectory(creational/prototype/cpp)
 #add_subdirectory(creational/prototype/cpp)
 
