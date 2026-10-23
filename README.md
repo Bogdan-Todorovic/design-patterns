@@ -29,6 +29,8 @@ Creational patterns deal with **how objects are created**, helping reduce coupli
 
 **Example:** Application-wide configuration or a shared logging service.
 
+![Singleton UML Diagram](umls/Singleton.png)
+
 ## 2. Factory Method
 
 **Purpose:** Define an interface for creating an object while allowing subclasses to decide which concrete type to instantiate.
@@ -45,6 +47,8 @@ Creational patterns deal with **how objects are created**, helping reduce coupli
 - Do you want the client to depend on a product interface rather than concrete classes?
 
 **Example:** Different notification creators producing email or SMS notifications.
+
+![Factory Method UML Diagram](umls/FactoryMethod.png)
 
 ## 3. Abstract Factory
 
@@ -63,6 +67,8 @@ Creational patterns deal with **how objects are created**, helping reduce coupli
 
 **Example:** Windows and macOS factories producing matching buttons and checkboxes.
 
+![Abstract Factory UML Diagram](umls/AbstractFactory.png)
+
 ## 4. Builder
 
 **Purpose:** Construct complex objects step by step, separating construction from the final object representation.
@@ -80,6 +86,8 @@ Creational patterns deal with **how objects are created**, helping reduce coupli
 
 **Example:** Building a configured character with a name, weapon, armor, health, and speed.
 
+![Builder UML Diagram](umls/Builder.png)
+
 ## 5. Prototype
 
 **Purpose:** Create new objects by copying existing instances instead of constructing them from scratch.
@@ -95,6 +103,8 @@ Creational patterns deal with **how objects are created**, helping reduce coupli
 - Can the object's copy semantics be clearly defined?
 
 **Example:** Creating game enemies from configured templates while giving each clone its own position and runtime state.
+
+![Prototype UML Diagram](umls/Prototype.png)
 
 ---
 
@@ -118,6 +128,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 
 **Example:** Adapting a Fahrenheit sensor to an interface that returns Celsius.
 
+![Adapter UML Diagram](umls/Adapter.png)
+
 ## 2. Bridge
 
 **Purpose:** Separate an abstraction from its implementation so both can evolve independently.
@@ -134,6 +146,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 - Do you want to change the abstraction and implementation independently?
 
 **Example:** Different remote controls working with different device types.
+
+![Bridge UML Diagram](umls/Bridge.png)
 
 ## 3. Composite
 
@@ -152,6 +166,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 
 **Example:** Files and folders, where a folder can calculate the total size of its contents.
 
+![Composite UML Diagram](umls/Composite.png)
+
 ## 4. Decorator
 
 **Purpose:** Add responsibilities to an object dynamically without modifying its class or creating a subclass for every combination of features.
@@ -169,6 +185,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 
 **Example:** Adding milk and caramel to a coffee object while preserving the same beverage interface.
 
+![Decorator UML Diagram](umls/Decorator.png)
+
 ## 5. Facade
 
 **Purpose:** Provide a simple interface to a complex subsystem.
@@ -184,6 +202,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 - Would a higher-level interface reduce dependencies on implementation details?
 
 **Example:** A home theater facade that turns on the TV, configures the sound system, and starts a movie.
+
+![Facade UML Diagram](umls/Facade.png)
 
 ## 6. Proxy
 
@@ -202,6 +222,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 
 **Example:** An image proxy that loads a large image only when it is first displayed.
 
+![Proxy UML Diagram](umls/Proxy.png)
+
 ## 7. Flyweight
 
 **Purpose:** Reduce memory usage by sharing common state among many similar objects.
@@ -218,6 +240,8 @@ Structural patterns deal with **how classes and objects are composed** to form l
 - Can common state be separated from state unique to each object?
 
 **Example:** Thousands of bullets sharing texture and base damage while maintaining independent positions and velocities.
+
+![Flyweight UML Diagram](umls/Flyweight.png)
 
 ---
 
@@ -242,6 +266,8 @@ Behavioral patterns deal with **how objects communicate, distribute responsibili
 
 **Example:** Switching between driving, walking, and cycling route algorithms.
 
+![Strategy UML Diagram](umls/Strategy.png)
+
 ## 2. Command
 
 **Purpose:** Encapsulate a request as an object, allowing requests to be stored, queued, passed around, or undone.
@@ -260,6 +286,8 @@ Behavioral patterns deal with **how objects communicate, distribute responsibili
 
 **Example:** A remote control executing commands that turn a light on or off.
 
+![Command UML Diagram](umls/Command.png)
+
 ## 3. Mediator
 
 **Purpose:** Centralize communication and coordination between objects so they do not need direct references to one another.
@@ -277,6 +305,8 @@ Behavioral patterns deal with **how objects communicate, distribute responsibili
 
 **Example:** A chat room mediating messages between users.
 
+![Mediator UML Diagram](umls/Mediator.png)
+
 ## 4. Memento
 
 **Purpose:** Capture and restore an object's previous state without exposing its internal representation.
@@ -292,6 +322,8 @@ Behavioral patterns deal with **how objects communicate, distribute responsibili
 - Do you need to keep snapshots without exposing the object's internals?
 
 **Example:** An editor saving previous document states to support undo.
+
+![Memento UML Diagram](umls/Memento.png)
 
 ## 5. Observer
 
@@ -310,6 +342,8 @@ Behavioral patterns deal with **how objects communicate, distribute responsibili
 
 **Example:** A weather station notifying multiple displays when the temperature changes.
 
+![Observer UML Diagram](umls/Observer.png)
+
 ## 6. Template Method
 
 **Purpose:** Define the skeleton of an algorithm in a base class while allowing subclasses to implement or customize selected steps.
@@ -325,6 +359,8 @@ Behavioral patterns deal with **how objects communicate, distribute responsibili
 - Do you want to reuse common logic while enforcing a consistent algorithm structure?
 
 **Example:** Preparing coffee and tea using the same sequence: boil water, brew, pour, and add optional ingredients.
+
+![TemplateMethod UML Diagram](umls/TemplateMethod.png)
 
 ---
 
